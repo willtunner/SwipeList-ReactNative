@@ -2,7 +2,6 @@ import React from 'react';
 import { StyleSheet, Text, View, FlatList } from 'react-native';
 import ListItem from './src/ListItem';
 
-import { TapGestureHandler, RotationGestureHandler } from 'react-native-gesture-handler';
 
 export default function App() {
   const tarefas = [
